@@ -7,8 +7,12 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
+  <h2>reverseGeocode for [{{latitude}}, {{longitude}}]</h2>
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    {{reverseGeocodeResult}}
+  </p>
+  <h2>forwardGeocode for {{searchString}}</h2>
+  <p>
+    {{forwardGeocodeResult}}
   </p>
 </ion-content>
